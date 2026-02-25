@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+@theme {
+  --default-font-family: 'Rubik Variable';
+}
+
+.lucide {
+  @apply inline;
+}
