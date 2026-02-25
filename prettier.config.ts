@@ -1,4 +1,4 @@
-import { type Config } from 'prettier'
+import { type Config } from 'prettier';
 
 const config: Config = {
   endOfLine: 'lf',
@@ -32,6 +32,6 @@ const config: Config = {
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
   importOrderTypeScriptVersion: '5.0.0',
   importOrderCaseSensitive: false,
-}
+};
 
-export default config
+export default config;
