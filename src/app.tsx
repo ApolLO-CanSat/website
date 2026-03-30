@@ -1,5 +1,6 @@
 import Explanation from './components/explanation';
 import Footer from './components/footer';
+import Gallery from './components/gallery';
 import ScrollIndicator from './components/scroll-indicator';
 import Team from './components/team';
 import Title from './components/title';
@@ -16,6 +17,8 @@ function App() {
         <Explanation />
         <ScrollIndicator text="Meet the team" />
       </div>
+      
+      <Gallery />
 
       <Team />
 
