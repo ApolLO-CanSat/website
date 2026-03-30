@@ -1,4 +1,4 @@
-import { SiGithub } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiYoutube } from '@icons-pack/react-simple-icons';
 import { Copyright, Mail } from 'lucide-react';
 
 export default function Footer() {
@@ -9,6 +9,13 @@ export default function Footer() {
         className="transition-colors hover:text-purple-300"
       >
         <SiGithub className="inline" /> @ApolLO-CanSat
+      </a>
+
+      <a
+        href="https://www.youtube.com/@ApolLOCanSat-official"
+        className="transition-colors hover:text-purple-300"
+      >
+        <SiYoutube className="inline" /> ApolLO CanSat
       </a>
 
       <a
